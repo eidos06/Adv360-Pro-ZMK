@@ -1,3 +1,21 @@
+macro_macro_back: macro_macro_back{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_back";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp Z>;
+};
+macro_macro_selectall: macro_macro_selectall{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_selectall";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp A>;
+};
+macro_macro_paste: macro_macro_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_paste";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp V>;
+};
 macro_macro_copy: macro_macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_copy";
